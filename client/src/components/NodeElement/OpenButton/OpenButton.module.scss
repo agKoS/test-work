@@ -1,0 +1,9 @@
+.button, .icon {
+  width: 20px;
+  transition: background-color 0.2s ease-in;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: rgb(202, 202, 202);
+}

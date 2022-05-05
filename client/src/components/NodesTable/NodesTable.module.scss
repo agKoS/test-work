@@ -1,0 +1,28 @@
+$black: #000;
+$red: #f00;
+$gray: gray;
+$header-color: aliceblue;
+$cell-color: papayawhip;
+
+.table {
+  margin-top: 110px;
+  border: 1px solid $black;
+  border: {
+    spacing: 0;
+    collapse: collapse;
+  }
+}
+
+.headerTable {
+  border-bottom: 3px solid $red;
+  background: $header-color;
+  color: $black;
+  font-weight: bold;
+}
+
+.cellTable {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid $gray;
+  background-color: $cell-color;
+}

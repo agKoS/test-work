@@ -1,0 +1,21 @@
+.name {
+  display: inline-block;
+  cursor: pointer;
+  color: #272727;
+  transition: transform 0.1s ease-in;
+  font-size: 18px;
+}
+
+.name:hover {
+  transform: translateX(2px);
+}
+
+.active {
+  transform: translateX(2px);
+  pointer-events: none;
+  font-weight: 700;
+}
+
+.children {
+  padding-left: 26px;
+}

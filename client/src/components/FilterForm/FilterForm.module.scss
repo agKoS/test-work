@@ -1,0 +1,27 @@
+.container {
+  position: absolute;
+  right: 30px;
+  top: 120px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(240, 240, 240, 0.411);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 8px;
+}

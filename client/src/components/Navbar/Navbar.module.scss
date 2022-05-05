@@ -1,0 +1,40 @@
+$blue: #04539e;
+$white: #fff;
+
+.navigation {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: $blue;
+  top: 0;
+  left: 0;
+  height: 8vh;
+  width: 100%;
+  padding: 0 30px;
+
+}
+
+.navigation > a {
+  color: $white;
+  position: relative;
+  font-size: 1.5rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    height: 2px;
+    width: 0%;
+    background-color: $white;
+    transition: all ease-in .2s;
+    pointer-events: none;
+  }
+
+  &:hover::after {
+    left: 0%;
+    width: 100%;
+  }
+}

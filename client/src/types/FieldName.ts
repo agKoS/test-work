@@ -1,0 +1,1 @@
+export type FieldName = "ip" | "name" | "port"
